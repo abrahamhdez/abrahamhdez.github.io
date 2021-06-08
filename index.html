@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="main-header">
+        <h2 class="freelancer-name">Abraham Hernandez Freelancer</h2>
+        <nav class="main-nav">
+            <ul class="main-nav__ul">
+                <div class="container flex main-nav__div">
+                    <li><a href="#" class="main-nav__ul--item">Home</a></li>
+                    <li><a href="#" class="main-nav__ul--item">About Me</a></li>
+                    <li><a href="#" class="main-nav__ul--item">Proyects</a></li>
+                    <li><a href="#" class="main-nav__ul--item">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+        <section class="main-hero">
+            <div class="container flex main-hero__div">
+                <div class="overlay"></div>
+                <h1 class="main-hero__title">Web Development and Design</h1>
+                <i class='bx bx-map'></i>
+                <h3 class="main-hero__title--location">Tijuana, Mexico</h3>
+                <a href="#" target="_blank"><button class="button">Let's talk</button></a>
+            </div>
+        </section>
+    </header>
+    <main class="main-site">
+        <div class="container main-container">
+            <h2 class="main-site__title">What can I do for you?</h2>
+            <div class="main-site__content flex">
+                <div class="main-site__content--item flex">
+                    <h3 class="main-site__content--title">Web Desing</h3>
+                    <div class="circle flex"><i class='bx bx-pen'></i></div>
+                    <p class="main-site__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, molestias sunt possimus asperiores commodi deleniti aut quae perferendis.</p>
+                </div>
+                <div class="main-site__content--item flex">
+                    <h3 class="main-site__content--title">Mobile Development</h3>
+                    <div class="circle flex"><i class='bx bxl-android'></i><i class='bx bxl-apple'></i></div>
+                    <p class="main-site__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, molestias sunt possimus asperiores commodi deleniti aut quae perferendis.</p>
+                </div>
+                <div class="main-site__content--item flex">
+                    <h3 class="main-site__content--title">E-Commerce</h3>
+                    <div class="circle flex"><i class='bx bx-cart'></i></div>
+                    <p class="main-site__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, molestias sunt possimus asperiores commodi deleniti aut quae perferendis.</p>
+                </div>
+            </div>
+            <h2 class="main-site__title">Contact</h2>
+            <div class="contact-container">
+                <h4 class="contact-title">Fill the form to contact me</h4>
+                <form action="#" method="get">
+                    <div class="grid main-form">
+                        <div class="form-data-container">
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" placeholder="John Doe">
+                        </div>
+                        <div class="form-data-container">
+                            <label for="tel">Telephone:</label>
+                            <input type="tel" name="tel" id="tel" placeholder="619-2344-3544">
+                        </div>
+                        <div class="form-data-container email">
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" placeholder="john_doe@email.com">
+                        </div>
+                        <div class="form-data-container textarea">
+                            <label for="message">Message:</label>
+                            <textarea class="form-textarea"name="message" id="message" placeholder="I want a webpage!"></textarea>
+                        </div>
+                    </div>
+                    <div class="flex button-container">
+                        <button type="submit" class="button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>All rights reserved &copy;</p>
+    </footer>
+
+</body>
+
+</html>
