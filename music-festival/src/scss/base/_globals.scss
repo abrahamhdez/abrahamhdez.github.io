@@ -1,0 +1,45 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $mainFont;
+    font-size: $bodyFontS;
+
+    &.body-fixed {
+        overflow: hidden;
+    }
+}
+
+p {
+    font-size: $pFontS;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: $h1FontS;
+}
+
+h2 {
+    font-size: $h2FontS;
+}
+
+h3 {
+    font-size: $h3FontS;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}

@@ -1,0 +1,60 @@
+.tickets {
+    background-color: $green;
+    
+    h3 {
+        color: $white;
+        padding: $gap*2 0;
+        text-align: center;
+    }
+}
+
+.tickets__container {
+    flex-direction: column;
+    @include tablet {
+        flex-direction: row;
+        justify-content: center;
+    }
+    gap: $gap*2;
+    padding-bottom: $gap*2;
+}
+
+
+.tickets__info {
+    width: 100%;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: $gap/2 $gap/2;
+            margin: 0;
+            background-color: $white;
+
+            &:nth-of-type(odd){
+                @include bgDarker($white);
+            }
+        }
+    }
+
+
+}
+.tickets__title {
+    color: $white;
+    text-align: center;
+    padding: $gap/2 0;
+    margin: 0;
+}
+
+.tickets__title:nth-of-type(1) {
+    font-size: $gap+0.5rem;
+}
+
+.tickets__title:nth-of-type(2) {
+    background-color: $pink;
+}
+
+.tickets__title:nth-of-type(3) {
+    background-color: $purple;
+}

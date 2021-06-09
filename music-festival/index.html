@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container flex">
+            <div>
+                <a href="index.html">
+                    <h1>Rock & EDM Festival</h1>
+                </a>
+            </div>
+            <nav class="header__nav flex">
+                <a href="#lineup">Line Up</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#tickets">Tickets</a>
+            </nav>
+        </div>
+    </header>
+    <div class="video">
+        <div class="overlay flex">
+            <div class="container video__container">
+                <h2>Rock & EDM Festival</h2>
+                <h3><span>Tijuana, Mexico - 2021</span></h3>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.webm" type="video/webm">
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+        </video>
+    </div>
+    <main>
+        <div class="description container flex">
+            <picture>
+                <img loading="lazy" src="build/img/imagen_vocalista.jpg" alt="Singer">
+            </picture>
+            <div class="flex description__text">
+                <h3>Rock & EDM Festival</h3>
+                <p><strong>Tijuana, Mexico 2021</strong></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut aliquid necessitatibus quas ipsum
+                    voluptas, recusandae vel quis officiis animi ea deleniti dolores, tenetur at quaerat eos porro unde
+                    minus aliquam molestiae. In nam, dignissimos exercitationem deleniti a quibusdam dolore quae!</p>
+            </div>
+        </div>
+    </main>
+    <section id="lineup" class="lineup">
+        <h3>Line up</h3>
+        <div class="container">
+            <p class="lineup__day">Friday 21st</p>
+            <div class="grid lineup__container">
+                <div class="lineup__info_container lineup__info--green">
+                    <div class="flex lineup__info">
+                        <p>Rock stage</p>
+                        <img loading="lazy" src="build/img/icono_rock.webp" alt="Guitar icon">
+                    </div>
+                    <p class="bg-darker-green"><strong>24:00</strong> | Metallica</p>
+                    <p><strong>22:00</strong> | Pearl Jam</p>
+                    <p class="bg-darker-green"><strong>20:00</strong> | KoRn</p>
+                    <p><strong>19:00</strong> | Muse</p>
+                    <p class="bg-darker-green"><strong>18:00</strong> | Breaking Benjamin</p>
+                    <p><strong>17:00</strong> | 30 seconds to Mars</p>
+                </div>
+
+                <div class="lineup__info_container lineup__info--yellow">
+                    <div class="flex lineup__info">
+                        <p>EDM stage</p>
+                        <img loading="lazy" src="build/img/icono_edm.webp" alt="Headset icon">
+                    </div>
+                    <p class="bg-darker-yellow"><strong>24:00</strong> | Metallica</p>
+                    <p><strong>22:00</strong> | Pearl Jam</p>
+                    <p class="bg-darker-yellow"><strong>20:00</strong> | KoRn</p>
+                    <p><strong>19:00</strong> | Muse</p>
+                    <p class="bg-darker-yellow"><strong>18:00</strong> | Breaking Benjamin</p>
+                    <p><strong>17:00</strong> | 30 seconds to Mars</p>
+                </div>
+            </div>
+            <p class="lineup__day">Saturday 22nd</p>
+            <div class="grid lineup__container">
+                <div class="lineup__info_container lineup__info--yellow">
+                    <div class="flex lineup__info">
+                        <p>Rock stage</p>
+                        <img loading="lazy" src="build/img/icono_rock.webp" alt="Guitar icon">
+                    </div>
+                    <p class="bg-darker-yellow"><strong>24:00</strong> | Metallica</p>
+                    <p><strong>22:00</strong> | Pearl Jam</p>
+                    <p class="bg-darker-yellow"><strong>20:00</strong> | KoRn</p>
+                    <p><strong>19:00</strong> | Muse</p>
+                    <p class="bg-darker-yellow"><strong>18:00</strong> | Breaking Benjamin</p>
+                    <p><strong>17:00</strong> | 30 seconds to Mars</p>
+                </div>
+
+                <div class="lineup__info_container lineup__info--green">
+                    <div class="flex lineup__info">
+                        <p>EDM stage</p>
+                        <img loading="lazy" src="build/img/icono_edm.webp" alt="Headset icon">
+                    </div>
+                    <p class="bg-darker-green"><strong>24:00</strong> | Metallica</p>
+                    <p><strong>22:00</strong> | Pearl Jam</p>
+                    <p class="bg-darker-green"><strong>20:00</strong> | KoRn</p>
+                    <p><strong>19:00</strong> | Muse</p>
+                    <p class="bg-darker-green"><strong>18:00</strong> | Breaking Benjamin</p>
+                    <p><strong>17:00</strong> | 30 seconds to Mars</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery container">
+        <h3>Gallery</h3>
+        <ul class="gallery__list grid"></ul>
+    </section>
+    <section id="tickets" class="tickets">
+        <h3>Tickets</h3>
+        <div class="container flex tickets__container">
+            <div class="tickets__info">
+                <p class="tickets__title">One-day pass</p>
+                <p class="tickets__title">Includes</p>
+                <ul>
+                    <li>Access to both stages</li>
+                    <li>Drinks and food</li>
+                </ul>
+                <p class="tickets__title">$100</p>
+            </div>
+            <div class="tickets__info">
+                <p class="tickets__title">Two-day pass</p>
+                <p class="tickets__title">Includes</p>
+                <ul>
+                    <li>Access to both stages</li>
+                    <li>Drinks and food</li>
+                    <li>Event shirt</li>
+                    <li>VIP Access</li>
+                </ul>
+                <p class="tickets__title">$180</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container flex">
+            <p>Rock & EDM Festival, Tijuana 2021. All rights reserved &copy;</p>
+            <p>Made with coffee by Abraham Hernandez</p>
+        </div>
+    </footer>
+    <script src="build/js/bundle.js"></script>
+</body>
+
+</html>

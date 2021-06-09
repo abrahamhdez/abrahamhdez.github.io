@@ -1,0 +1,28 @@
+.description {
+    gap: $gap;
+    padding: $gap*2.5;
+    flex-direction: column;
+    @include tablet {
+        flex-direction: row;
+        picture, div {
+            flex: 1;
+        }    
+    }
+    
+    div {
+        strong {
+            display: block;
+            margin: 2rem 0;
+        }
+        p {
+            line-height: 1.5;
+            margin: 0;
+        }
+    }
+}
+
+.description__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

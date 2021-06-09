@@ -1,0 +1,18 @@
+footer {
+    background-color: $pink;
+
+    div {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        @include tablet {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        p {
+            color: $white;
+            font-size: bodyFontS;
+        }
+    }
+}

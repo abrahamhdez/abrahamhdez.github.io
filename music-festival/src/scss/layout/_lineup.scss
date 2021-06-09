@@ -1,0 +1,60 @@
+.lineup {
+    background-color: $pink;
+
+    h3, .lineup__day {
+        padding: $gap 0;
+        color: $white;
+        text-align: center;
+    }
+
+    h3 {
+        padding-top: $gap*2;
+    }
+    
+}
+
+.lineup__container {
+    @include tablet {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: $gap;
+    }
+}
+
+.lineup__container:last-of-type {
+    padding-bottom: $gap;
+}
+
+.lineup__info_container {
+    flex-direction: column;
+    padding: $gap 0;
+    margin: $gap/2 0;
+    p {
+        margin: 0;
+        padding: $gap;
+    }
+}
+
+.lineup__info {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: $gap/2;
+    img {
+        width: 20rem;
+    }
+}
+
+.lineup__info--yellow {
+    background-color: $yellow;
+}
+
+.lineup__info--green {
+    background-color: $green;
+}
+
+.bg-darker-yellow {
+    @include bgDarker($yellow);
+}
+
+.bg-darker-green {
+    @include bgDarker($green)
+}

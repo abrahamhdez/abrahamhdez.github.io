@@ -1,0 +1,44 @@
+.services-list {
+    @include tablet {
+        @include grid(2,$gap/5);
+    }
+
+    .service {
+        background-color: $white;
+        padding: $gap/3;
+        border-radius: $gap/5;
+        margin: $gap/5 0;
+        cursor: pointer;
+        
+        &:hover {
+            transform: scale(1.02);
+            transition: 200ms ease-in-out;
+        }
+
+        @include tablet {
+            margin: 0;
+        }
+
+        p {
+            margin: $gap/5;
+        }
+
+        &.select {
+            background-color: $blue;
+             p {
+                 color: $white;
+             }
+        }
+    }
+
+    .service-name {
+        color: $dark;
+        font-weight: $regular;
+    }
+
+    .service-price {
+        color: $blue;
+        font-size: $gap/2;
+        font-weight: $bold;
+    }
+}

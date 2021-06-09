@@ -1,0 +1,34 @@
+{
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Adult Haircut",
+            "precio": 80
+        },
+        {
+            "id": 2,
+            "nombre": "Child Haircut",
+            "precio": 60
+        },
+        {
+            "id": 3,
+            "nombre": "Hair Dyeing",
+            "precio": 100
+        },
+        {
+            "id": 4,
+            "nombre": "Beard Trim",
+            "precio": 100
+        },
+        {
+            "id": 5,
+            "nombre": "Face cleaning",
+            "precio": 60
+        },
+        {
+            "id": 6,
+            "nombre": "Special Hairstyle",
+            "precio": 100
+        }
+    ]
+}
