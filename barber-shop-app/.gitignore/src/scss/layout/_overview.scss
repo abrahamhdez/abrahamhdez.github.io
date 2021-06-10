@@ -1,0 +1,50 @@
+.red-alert {
+    background-color: $red;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: $bold;
+    padding: $gap/5;
+}
+
+.green-alert {
+    background-color: $green;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: $bold;
+    padding: $gap/5;
+}
+
+.overview-content {
+    h3 {
+        margin: $gap/2 0;
+    }
+
+    strong {
+        color: $blue;
+    }
+
+    .total {
+        text-align: right;
+    }
+}
+
+.overview-text {
+    margin: 0;
+    line-height: $gap;
+}
+
+.overview-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: $gap;
+    strong {
+        color: $blue;
+    }
+}
+
+.overview-item {
+    color: $white;
+    font-size: 2rem;
+    border-bottom: 1px solid #43453c;
+}
